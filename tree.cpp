@@ -129,6 +129,10 @@ public:
     void Task9(const T &elem, Node* current);
 
     void Task10(const T &elem, Node* current);
+    
+    void Task11(const T &elem, const T &elem2, Node* current);
+
+    void Task12(Node* current);
 
 private:
     void Add(Node *&node, const T &elem);
